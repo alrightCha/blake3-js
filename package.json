@@ -1,0 +1,22 @@
+{
+  "name": "blake3-js-optimized",
+  "version": "1.0.0",
+  "description": "Highly optimized pure JavaScript implementation of BLAKE3 cryptographic hash function",
+  "main": "js/blake3.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-modules test-simple.ts",
+    "bench": "node --experimental-modules bench.ts"
+  },
+  "keywords": [
+    "blake3",
+    "hash",
+    "crypto",
+    "cryptography",
+    "wasm",
+    "simd",
+    "performance"
+  ],
+  "author": "",
+  "license": "MIT"
+}
